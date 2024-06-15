@@ -1,2 +1,88 @@
+Crack
+https://gchq.github.io/CyberChef/
+https://crackstation.net/
+https://github.com/Stealerium/Stealerium
+https://github.com/danielmiessler/SecLists
 
+
+OSINT
+https://github.com/seekr-osint/seekr
+
+
+Packets
+wireshark
+hexdump
+audacity, stegsolve
+curl, postman, burpsuite
+ollydbg, ida
+VSCode, Python
+TRANSLATE_PAGES
+
+
+#список популярного CTF софта.
+https://github.com/zardus/ctf-tools
+#тулзы
+https://github.com/DestructiveVoice/DestructiveFarm — ферма эксплойтов для A/D;
+https://github.com/alexbers/exploit_farm — ферма Александра Берсенёва;
+https://github.com/andgein/ctf-exploit-farm — ферма Андрея Гейна.
+http://kaitai.io/ — парсер для бинарных файлов;
+https://github.com/danielmiessler/SecLists — база уязвимостей, популярных паролей, имён и т.д.;
+https://github.com/korcankaraokcu/PINCE
+https://kali.tools/all/ — описание всех (почти) пакетов для Kali Linux;
+https://requestbin.com/ — простой сайт для принятия запросов (к примеру, для тестирования XSS).
+
+
+FAQ
+#crack
+https://docs.google.com/viewer?url=https://raw.githubusercontent.com/JaysesS/4hsl33p_borda/main/flask/data/presentation/passwrd.pdf
+#web
+https://docs.google.com/viewer?url=https://raw.githubusercontent.com/JaysesS/4hsl33p_borda/main/flask/data/presentation/Web.pdf
+https://portswigger.net/web-security
+https://github.com/OWASP/wstg/releases/tag/v4.2
+https://websec.ca/kb/sql_injection
+#stego
+https://docs.google.com/viewer?url=https://raw.githubusercontent.com/JaysesS/4hsl33p_borda/main/flask/data/presentation/Stego.pdf
+#forensic
+https://docs.google.com/viewer?url=https://raw.githubusercontent.com/JaysesS/4hsl33p_borda/main/flask/data/presentation/Forensics.pdf
+если lsb, берем stegsolve
+https://www.nayuki.io/page/png-file-chunk-inspector
+#rev
+https://docs.google.com/viewer?url=https://raw.githubusercontent.com/JaysesS/4hsl33p_borda/main/flask/data/presentation/Reverse.pdf
+#pentest
+https://github.com/casterbyte/NetworkNightmare
+#pwn
+https://www.ired.team/offensive-security/code-injection-process-injection.
+https://kathan19.gitbook.io/howtohunt
+#ALL
+https://book.hacktricks.xyz/
+https://kmb.cybber.ru/
+http://itsecwiki.org/index.php/
+https://github.com/Snifer/security-cheatsheets
+#NETWORK_LECTION
+https://sadykov.notion.site/3dbe19519a6c4341bb168985397f48f8
+
+
+
+#DOCKER INSTALL GUIDE
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+#NETWORK CONFIGURATION /etc/network/
+ip a
+route
+nslookup/dig
+ping 8.8.8.8
+ping ya.ru
+tcpdump -i eth0
 
